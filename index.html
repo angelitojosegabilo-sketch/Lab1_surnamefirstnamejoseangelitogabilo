@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Page</title>
+  <style>
+    body {
+      background-color: #3d3a3a;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #676060;
+      color: skyblue(174, 174, 174);
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #676060;
+      color: blue(143, 140, 140);
+      padding: 10px 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: blue(143, 140, 140);
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+      background-color: #676060;
+    }
+
+    .container img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .text {
+      background-color: #676060;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+      color: blue(174, 174, 174);
+    }
+
+    form {
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      border: 2px solid #676060;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #676060;
+    }
+
+    input {
+      width: 90%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      color: white (154, 153, 153);
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color:#676060;
+    }
+
+    footer {
+      background-color: #676060;
+      color: blue(143, 140, 140);
+      text-align: center;
+      padding: 5px;
+    }
+
+    footer:hover {
+      color: #100f0f;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>Hi! This page is about me and I'm using it to study the basic code and html.</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <article class="container">
+      <div class="image-section">
+        <img src="D:\html/IMG.jpg">
+        </div>
+
+      <div class="text">
+        <h1>About Me</h1>
+        <h2>Gabilo, Jose Angelito.</h2>
+        <p>Hello! I'm a student who want more to learn and get to know more about how to create a simple website. I enjoy study of the basic coding activity with technology, especially creating simple webpage.</p>
+        <p>Here are some of my interests and hobbies:</p>
+        <ul>
+          <li>Learning of some skills and discovering some of ideas its helps me alot to learn so fast.</li>
+          <li>Loves kaorake and cook some of dishes.</li>
+          <li>I loved spending quality time with my siblings niece and friends.</li>
+          <li>loves Listening to the music and it's my stress reliever in it make me enjoy and relax.</li>
+          <li>Loves hangouts with friends and playing badminton video outy with them.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <div class="form">
+    <h2>Registration Form</h2>
+  </div>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" placeholder="Name"><br>
+    <label for="Email">Email:</label><br>
+    <input type="email" id="Email" placeholder="Email"><br>
+    <label for="Password">Password:</label><br>
+    <input type="password" id="Password" placeholder="Password"><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
+    <p>© May 22 , 2026 Gabilo, Jose Angelito. All rights reserved.</p>
+  </footer>
+</body>
+</html>
